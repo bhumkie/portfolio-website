@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("Free\ Vector\ _\ Gradient\ minimalist\ background.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20x auto;
+    padding: 20px;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+    
+}
+
+
+/*.container nav{
+    height: 7%;
+    width: 90%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20x auto;
+    padding: 20px;
+}*/
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color:#6f34fe;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+    
+}
+
+nav ul li a{
+    color:#5053b9;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.3s;
+    text-transform: capitalize;
+   
+}
+
+nav ul li a:hover{
+    color: #d273b4;
+    transition: .4s;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 35%;
+    left: 20px;
+
+}
+
+.content .section-1{
+    position: relative;
+    width: 40%;
+}
+
+.content .section-1 h1{
+    
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 30%;
+    width: 100%;
+    color: #000;
+
+}
+
+.content .section-1 h3{
+    font-size: 25px;
+    color: #6f34fe;
+    margin-bottom: 11px;
+    margin-left: 30%;
+}
+
+.content .section-1 p{
+    font-size: 15px;
+    color: #505052;
+    margin-bottom: 50px;
+    margin-left: 30%;
+}
+
+.content .btn{
+    padding: 20px 25px;
+    border-radius: 5px;
+    background-color: #6f34fe;
+    border: 3px solid #6f34fe;
+    font-weight: 500;
+    font-size: medium;
+    text-decoration: none;
+    transition: 0.3;
+    color: #e9e3e3;
+    margin-bottom: 80%;
+    margin-left: 30%;
+    
+}
+
+.content .btn:hover{
+    background-color: rgb(255, 255, 255);
+    color:#6f34fe;
+}
+
+.about{
+    width: 100%;
+    padding: 100px;
+    background-image: url("Download\ abstract\ blur\ background\ with\ pastel\ color\ for\ free.jpeg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.about img{
+    height:auto;
+    width: 400px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: rgb(174, 101, 202);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+    
+.about-text p{
+    color: #191818;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    padding: 20px 25px;
+    border-radius: 5px;
+    background-color: #6f34fe;
+    border: 3px solid #6f34fe;
+    font-weight: 500;
+    font-size: medium;
+    text-decoration: none;
+    transition: 0.3;
+    color: #e9e3e3;
+    margin-bottom: 5%;
+    margin-left: 30%;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color:#6f34fe;
+}
+
+.skills{
+    width: 100%;
+    padding: 100px;
+    background: url("backimgforskill.jpeg") ;
+    background-size: cover;
+    background-position: center; 
+}
+
+.title h2{
+    color:#7a59c7;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: rgb(222, 144, 201);
+    border-radius: 20px;
+    margin:15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(41, 15, 85);
+}
+
+h5{
+    color:rgb(36, 48, 111);
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+
+.pra{
+    color: rgb(21, 21, 22);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.contact{
+    
+    width: 100%;
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.contact-title h2{
+    color:#896dcb;
+    font-size: 70px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.contact-info{
+    display:flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.card1{
+    background:rgb(222, 144, 201);;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: 200px;
+    height: 300px;px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(235, 232, 242);
+}
+
+.card1 i{
+    font: size 28px;
+    background: rgb(138, 110, 191);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.card1:hover .card1-i{
+    background: none;
+    color:rgb(223, 226, 236);
+    transform: scale(1.6);
+
+}
+
+.card1 p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.card1:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: rgb(110, 95, 219);
+    margin-bottom: 20px;
+    font-weight:bold;
+}
+
+footer p:nth-child(2){
+    color:rgb(87, 68, 189);
+    font-size:17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  rgb(167, 95, 229);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover{
+   transform: scale(1.3);
+   transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color: rgb(43, 41, 41);
+    bottom: 35px;
+    font-size: 14px;
+
+
+}
+
